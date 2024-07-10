@@ -13,6 +13,7 @@ cd keywords  # Navigate to the project directory
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
 pip install -r requirements.txt
+pip install torch
 python3 -m nltk.downloader punkt
 python3 -m nltk.downloader stopwordspython3 keywords.py
 
